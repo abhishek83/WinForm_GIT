@@ -19,7 +19,12 @@ namespace WinForm_GIT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello");
+            _ = MessageBox.Show("Hello how are you");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Message Box for button 3");
         }
     }
 }
